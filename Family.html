@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Family</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #3d7a3a;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Family</h1>
+  <p>The ones who were there from the very begining</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <audio controls autoplay>
+  <source src="music/frad.mp3" type="audio/mpeg">
+</audio>
+	<h3>Meet the members!</h3>
+   
+<h3>Father</h3>
+<a href= "#first">Roslan bin Mohd Hamidi (Ayah)</a>
+<h3>Mother</h3>
+<a href= "#second">H. Fariza binti Othman (Mama)</a>
+<h3>Eldest</h3>
+<a href= "#third">Izzat bin Roslan (Abang)</a>
+<h3>Elder Brother</h3>
+<a href= "#fourth">Irfan bin Roslan (Abang Ifan)</a>
+<h3>Elder Sister</h3>
+<a href= "#fifth">Zakirah binti Roslan (Kakak)</a>
+
+<h3>Navigation</h3>
+ <a href="Career.html"><img src="images/uitmini.jpg" alt="me" style="width:300px;height:150px;"></a> 
+ <a href="Interests.html"><img src="images/minintest.jpg" alt="me" style="width:300px;height:150px;"></a>
+
+</div>
+  <div class="main">
+<h2>Nana the Youngest</h2>
+ <img src="images/fam3.jpg" alt="mama" style="width:420px;height:640px;">
+ <p>The little girl in the middle? That's me alright. I am the youngest child of 4 siblings, but usually people find it surpiring since I do not act like what people would normally associate with 'the youngest child'.</p>
+ <p>I find the age gap between my three elder siblings and myself to be considerably wide as my sister above me is 5 years older but despite the gap, I like to believe we have a good relationship with eachother. As my parents both work as a I was a child, 
+I found myself to be needing to be more independent but sometimes I can come off a bit distant or cold to others but that's alright.</p>
+   
+
+<h2><a name="first">Roslan bin Mohd Hamidi (Ayah)</a></h2>
+    <h5>Birthday, Dec 30, 1963</h5>
+    <img src="images/ayah.jpg" alt="ayah" style="width:640px;height:420px;">
+    <p>This is my dad! He's in his sweet 50's happily retired but still somehow has his ways of making income and participating in social activites as a counsellor, you can count on him to be a loyal listener.</p>
+    <p>If I had to name my dad's special talent it would be imitating different Malay dialects. My late grandfater was in the police force so my dad had to move a lot when he was younger, hence why he is able to speak 
+various Malay dialects fluently and easily befriend almost anyone.</p>
+   
+
+<h2><a name="second">H. Fariza binti Othman (Mama)</a></h2>
+    <h5>Birthday, Feb 27, 1967</h5>
+   <img src="images/mama.jpg" alt="mama" style="width:420px;height:640px;">
+    <p>This lovely little lady is my mother.</p>
+    <p>She has been working as a teacher for over 20 years, she always mentions how she cannot wait to retire and I can see why. Working as a teacher is difficult, she's constantly working both in and oustside school for her students as well as for some extra income. Her students treasure her a lot, even years after graduating some of her students still visit her on Raya.</p>
+	<p>She's always there when you need her and I think its amazing how she is able to do it so well, I wish I could do more to make it up to her.</p>
+<h2><a name="third">Izzat bin Roslan (Abang)</a></h2>
+    <h5>Birthday, Dec 30, 1992</h5>
+<img src="images/abang.jpg" alt="abang" style="width:540px;height:540px;">     
+<p>This is my eldest brother, he works as a bicycle mechanic despite being away a lot he really influenced me a lot in my childhood.</p>
+<video width="420" height="640" controls>
+  	<source src="videos/abang.mp4" type="video/mp4">
+	</video>
+    <p>If I had to describe him in one word, it would probably be nomad. He's constantly on the move, and he currently lives in Brisbane, Australia with my nephew and sister-in-law. It's been a couple years since they came back to Malaysia, I hope I can see them soon.</p>
+  
+<h2><a name="fourth">Irfan bin Roslan (Abang Ifan)</a></h2>
+    <h5>Birthday, Aug 28, 1994</h5>
+   <img src="images/abgipan.jpg" alt="abang ifan" style="width:420px;height:640px;">
+    <p>My second brother Irfan was my argue buddy back in the day. We would constantly fight and argue like there was no tomorrow.</p>
+    <p>As I got older, we got a lot more closer and almost never fight anymore. Only now I felt like I can talk to him normally like any sister would.</p>
+  
+<h2><a name="fifth">Zakirah binti Roslan (Kakak)</a></h2>
+    <h5>Birthday, Nov 12, 1995</h5>
+    <img src="images/kakak.jpg" alt="kakak" style="width:420px;height:640px;">
+    <p>Similar to my eldest brother, my sister is never static, always has a project in mind.</p>
+
+    <p>She recently just finished her degree in business administration now she's working with my aunt's company. Since my second brother and sister have only a year age gap, they are practically best buddies. Sometimes I feel a bit left out because of my age gap but my sis tries to include me in her projects.</p>
+    
+</div>
+</div>
+
+<div class="footer">
+  <h5>A website created for IMD311, UiTM 2020</h5>
+</div>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Interests!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #edd02d;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Interests</h1>
+  <p>I like a lot of things! Some shaped who I am today.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <audio controls autoplay>
+  <source src="music/ramune.mp3" type="audio/mpeg">
+</audio>
+
+<h3>Navigation</h3>
+
+  
+<br>  
+<a href= "#first">Music</a>
+<br>
+<a href= "#second">Anime & Manga</a>
+<br>
+<a href= "#third">Video Games</a>
+<a href="Career.html"><img src="images/uitmini.jpg" alt="me" style="width:300px;height:150px;"></a>
+<a href="Family.html"><img src="images/famini.jpg" alt="me" style="width:300px;height:150px;">
+</a>
+
+  </div>
+
+  <div class="main">
+<a name="first"><img src="images/jpop.jpg" alt="music" style="width:640px;height:420px;"></a>
+   <br>
+    <p>I find my taste in music to be quite diverse, my Spotifiy analysed my listening history to be varied in both genres and languages. </p>
+<br>
+    <p>This is Hikaru Utada, a world renowned J-pop singer. Calling her my favourite singer would be an understatement as I have been following her releases after discovering her musing through my brother in 2008, which makes that I have followed her over a decade. </p>
+ 
+<br>    
+<a name="second"><img src="images/manga.jpg" alt="anime" style="width:640px;height:420px;"></a>
+<br>    
+<p>The anime and manga industry is one of those pop cultures that have grown increasingly mainstream over the years. I found myself completely absorbed into in since my primary school days and even more so now.</p>
+
+
+<br>    
+<p>Typically most would find anime to be flashy, childish, or made for a younger demographic as that is what the most popular series are aimed at. In reality, it is made for a diverse genre of audience and I assure that anyone can find something that would suit their taste. Mob Psycho 100 is one of my favourite as well as an amazingly animated series I highly recommend. </p>
+ <br>   
+<a name="third"><img src="images/games.jpg" alt="video games" style="width:640px;height:420px;"></a>
+    <p>Video games are some of the things that I have gained interest through the influence of my brothers.</p>
+
+<br>
+    <p>Little known fact is that the largest video game consumers are adults. One of the games I got the chance to play this year is Final Fantasy 7 Remake on the PS4 which is orginally a PS1 game back in the 90s. The political commentary in the plot as well as the action-packed gameplay left me wanting more. I'm looking formard to the next entry in this franchise.</p>
+  
+</div>
+</div>
+
+<div class="footer">
+  <h5>A website created for IMD311, UiTM 2020</h5>
+</div>
